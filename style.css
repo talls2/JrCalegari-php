@@ -1,0 +1,1003 @@
+@font-face {
+  font-family: Gotham_bold;
+  src: url(./src/fonts/Gotham-Font/GothamBold.ttf);
+}
+@font-face {
+  font-family: Gotham_book;
+  src: url(./src/fonts/Gotham-Font/GothamBook.ttf);
+}
+@font-face {
+  font-family: Gotham_light_more;
+  src: url(./src/fonts/Gotham-Font/GothamLight.ttf);
+}
+@font-face {
+  font-family: Gotham_medium;
+  src: url(./src/fonts/Gotham-Font/GothamMedium.ttf);
+}
+@font-face {
+  font-family: Gotham_medium1;
+  src: url(./src/fonts/Gotham-Font/GothamMedium_1.ttf);
+}
+@font-face {
+  font-family: Gotham_black;
+  src: url(./src/fonts/Gotham-Font/Gotham-Black.otf);
+}
+@font-face {
+  font-family: Gotham_light;
+  src: url(./src/fonts/Gotham-Font/Gotham-Light.otf);
+}
+/***** Configs *****/
+.container-fluid {
+  overflow: hidden;
+}
+
+html {
+  margin: 0 !important;
+  margin-top: 0 !important;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+/***** End Configs *****/
+/***** Home *****/
+header {
+  background-color: white;
+  font-family: Gotham_bold;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
+  z-index: 999999999;
+  opacity: 1;
+  transition: opacity 1.3s ease-in-out;
+}
+header nav {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+  list-style-type: none;
+  color: #28566e;
+  margin-top: 10px !important;
+  font-size: 1.35vw;
+  font-family: Gotham_bold;
+  font-weight: 700;
+  line-height: 125%;
+  /* 30px */
+  padding: 0 !important;
+}
+header nav a {
+  color: #28566e;
+}
+header nav a {
+  text-decoration: none !important;
+}
+header nav a:link {
+  text-decoration: none !important;
+}
+header nav a:visited {
+  text-decoration: none !important;
+  color: #28566e;
+}
+header nav a:hover {
+  text-decoration: none !important;
+}
+header nav a:active {
+  text-decoration: none !important;
+}
+
+#logo_header {
+  width: 10.981vw;
+}
+
+#insta_logo {
+  width: 2.196vw;
+}
+
+#banner_top_img {
+  object-fit: contain;
+  z-index: 1;
+}
+
+#construindo_conteudo {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#construindo_conteudo img {
+  position: absolute;
+  left: 0%;
+  width: 26.042vw;
+  z-index: 0;
+}
+#construindo_conteudo h1 {
+  color: #28566e;
+  width: 28.581vw;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  color: #28566E;
+  text-align: right;
+  font-size: 2.604vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 111%;
+  /* 55.5px */
+  text-transform: uppercase;
+  font-family: Gotham_bold;
+}
+#construindo_conteudo div {
+  width: 28.581vw;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+#construindo_conteudo p {
+  font-family: Gotham_light;
+  font-weight: 500;
+  width: 24.844vw;
+  margin-top: 3%;
+  font-size: 1.042vw;
+  color: #7B7B7B;
+  line-height: 116%;
+  /* 23.2px */
+}
+
+#construindo {
+  display: flex;
+  justify-content: center;
+}
+
+#empreendimentos {
+  height: auto;
+  background: linear-gradient(166deg, #28566E 0%, #0E2033 100%);
+  font-family: Gotham_black;
+}
+#empreendimentos .card_menor_1 {
+  z-index: 1;
+}
+#empreendimentos .card_menor_1::after {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 2.91%, #000 100%);
+  content: "";
+  display: block;
+  height: 35%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+}
+#empreendimentos #text_inside_big_destaque_1 {
+  position: absolute;
+  bottom: 0;
+  width: 70%;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  z-index: 9999;
+  font-family: Gotham_medium;
+}
+#empreendimentos #text_inside_big_destaque_1 p {
+  font-size: 0.732vw;
+  color: #fff;
+  margin: 0;
+  font-family: Gotham_light;
+}
+#empreendimentos #text_inside_big_destaque_1 .descritivos_card {
+  font-size: 1.042vw;
+  font-family: Gotham_light_more;
+}
+#empreendimentos #text_inside_big_destaque_1 .nome_local {
+  margin-bottom: -5px;
+}
+#empreendimentos #text_inside_big_destaque_1 #tipo_construcao {
+  margin-bottom: -5px;
+}
+#empreendimentos #text_inside_big_destaque_1 .tipo_construcao {
+  margin-bottom: -5px;
+}
+#empreendimentos #text_inside_big_destaque_1 h1 {
+  margin: 0;
+  font-size: 1.563vw;
+}
+#empreendimentos #text_inside_big_destaque_1 h2 {
+  margin: 0;
+  color: #28566E;
+  width: 12.287vw;
+  height: 1.823vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 1.042vw;
+  background-color: #fff;
+  text-align: center;
+  padding: 0.146vw 0.878vw;
+  font-family: Gotham_medium;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111%;
+  /* 22.2px */
+  text-transform: uppercase;
+}
+#empreendimentos div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#empreendimentos h1 {
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 2.604vw;
+}
+#empreendimentos #paineis {
+  margin-bottom: 5%;
+}
+#empreendimentos #paineis #painel_principal {
+  position: relative;
+}
+#empreendimentos #paineis #J_image {
+  position: absolute;
+  left: 0%;
+  width: 11.027vw;
+  top: -11%;
+  z-index: 999;
+}
+#empreendimentos #paineis .so_z_index {
+  z-index: 999;
+}
+#empreendimentos #paineis #paineis_menores {
+  display: flex;
+  position: relative;
+  left: -11%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#empreendimentos #paineis #paineis_menores .image_1 {
+  z-index: 998;
+}
+#empreendimentos #paineis #paineis_menores .card_menor_1 {
+  position: relative;
+}
+#empreendimentos #paineis #paineis_menores .card_menor_1::after {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 2.91%, #000 100%);
+  content: "";
+  display: block;
+  height: 35%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+}
+#empreendimentos #paineis #paineis_menores .text_inside_destaque_1 {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  z-index: 9999;
+  font-family: Gotham_medium;
+}
+#empreendimentos #paineis #paineis_menores .text_inside_destaque_1 p {
+  font-size: 0.732vw;
+  color: #fff;
+  margin: 0;
+  font-family: Gotham_light;
+}
+#empreendimentos #paineis #paineis_menores .text_inside_destaque_1 .descritivos_card {
+  font-size: 1.042vw;
+  font-family: Gotham_light_more;
+}
+#empreendimentos #paineis #paineis_menores .text_inside_destaque_1 .nome_local {
+  margin-bottom: -5px;
+}
+#empreendimentos #paineis #paineis_menores .text_inside_destaque_1 #tipo_construcao {
+  margin-bottom: -5px;
+}
+#empreendimentos #paineis #paineis_menores .text_inside_destaque_1 h1 {
+  margin: 0;
+  font-size: 1.563vw;
+}
+#empreendimentos #paineis #paineis_menores .text_inside_destaque_1 h2 {
+  margin: 0;
+  color: #28566E;
+  width: 12.287vw;
+  height: 1.823vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 1.042vw;
+  background-color: #fff;
+  text-align: center;
+  padding: 0.146vw 0.878vw;
+  font-family: Gotham_medium;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111%;
+  /* 22.2px */
+  text-transform: uppercase;
+}
+#empreendimentos #paineis #paineis_menores #R_image {
+  position: absolute;
+  z-index: 997;
+  left: -6%;
+  top: -13%;
+  width: 19.427vw;
+}
+
+#anos {
+  height: 1000px;
+  position: relative;
+}
+#anos #anos_conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./src/images/Fundo_Itape.png);
+  background-size: cover;
+  height: 1000px;
+  overflow: hidden;
+}
+#anos #anos_conteudo::after {
+  background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  display: block;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#anos #botao_saber {
+  padding: 15px 25px;
+  margin-top: 30px;
+  color: #28566e;
+  filter: drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.25));
+  background: #D9D9D9;
+  z-index: 9999;
+  font-size: 20px;
+  font-family: Gotham_medium;
+  font-feature-settings: "salt" on;
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+}
+#anos h1 {
+  margin-top: 60px;
+  z-index: 1;
+  color: #28566e;
+  text-align: center;
+  font-family: Gotham_black;
+  text-transform: uppercase;
+}
+#anos p {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 121.5%;
+  font-family: Gotham_medium;
+  text-align: center;
+  color: #020304;
+  margin-top: 50px;
+  width: 830px;
+  z-index: 1;
+}
+
+#family {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-image: url(./src/images/happy-young-family.png);
+  height: 700px;
+}
+#family #cadastre {
+  display: flex;
+  flex-direction: column;
+  padding: 25.44px;
+  align-items: left;
+  position: absolute;
+  background-color: #28566e;
+  color: white;
+  z-index: 3;
+  height: 200px;
+  bottom: 0;
+  margin-bottom: -100px;
+  box-shadow: 2px 2px 14px 1px #020304;
+}
+#family #cadastre #title_and_p {
+  margin-left: 2%;
+}
+#family #cadastre h1 {
+  margin-bottom: 0;
+  font-family: Gotham_medium;
+}
+#family #cadastre p {
+  margin-top: -5px;
+  font-family: Gotham_light;
+}
+#family #cadastre #inputs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#family #cadastre .campos_pai {
+  display: flex;
+  justify-content: center;
+}
+#family #cadastre .campos {
+  width: 100%;
+  border-radius: 12px !important;
+  height: 45px;
+  font-family: "Gotham_light";
+  font-weight: 500;
+  color: #7B7B7B;
+}
+#family #cadastre #botao_div {
+  display: flex;
+}
+#family #cadastre .cadastrar {
+  color: white;
+  background-color: #0DCB9D;
+  border-radius: 8px !important;
+  height: 45px;
+  font-family: Gotham_bold;
+  font-weight: 500;
+  width: 80%;
+}
+
+#trabalhamos {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 450px;
+  background-color: #D9D9D9;
+}
+#trabalhamos .trabalhamos_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#trabalhamos .trabalhamos_div h1 {
+  color: #28566E;
+  text-align: center;
+  font-family: Gotham_medium;
+  font-size: 2.4125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111%;
+  /* 55.5px */
+  text-transform: uppercase;
+}
+#trabalhamos .trabalhamos_div img {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.happy_family {
+  background: url(./src/images/happy-young-family-footer.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
+  background-size: 100% auto;
+  height: 345px;
+  overflow: hidden;
+}
+
+footer {
+  font-family: Gotham_medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./src/images/fundo_footer.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-top: 10px;
+}
+footer img {
+  width: 30px;
+}
+footer #facebook {
+  height: 30px;
+  margin-left: 20px;
+}
+footer #inside_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+footer #inside_footer:first-child {
+  align-items: baseline;
+}
+footer #lista_footer {
+  margin-bottom: 50px;
+}
+footer #info_last {
+  font-size: 12px;
+  margin-bottom: 15px;
+  width: 600px;
+}
+footer #icons_footer {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 15px;
+}
+footer #info_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  font-family: Gotham_light;
+}
+footer #footer_empreendimentos {
+  font-family: Gotham_light;
+}
+footer p {
+  margin: 0;
+}
+footer ul {
+  list-style-type: none;
+  text-decoration: none !important;
+}
+footer ul a {
+  color: white;
+}
+footer ul a {
+  text-decoration: none;
+}
+footer ul a:link {
+  text-decoration: none;
+}
+footer ul a:visited {
+  text-decoration: none;
+  color: white;
+}
+footer ul a:hover {
+  text-decoration: none;
+}
+footer ul a:active {
+  text-decoration: none;
+}
+
+/***** End Home *****/
+/***** Empreendimentos *****/
+#empreendimentos_empreendimentos {
+  height: auto;
+  background: linear-gradient(180deg, #28566E 0%, #153A4E 100%);
+  font-family: Gotham_black;
+}
+#empreendimentos_empreendimentos h1 {
+  color: #fff;
+}
+
+.paineis_empreendimentos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+.paineis_empreendimentos .card_menor_1 {
+  overflow: hidden;
+  /* Hide any content that overflows the container */
+  position: relative;
+  /* Set a relative position for absolute elements */
+}
+.paineis_empreendimentos .card_menor_1 img {
+  transition: transform 0.3s ease;
+  /* Add a smooth transition effect */
+}
+.paineis_empreendimentos .card_menor_1:hover img {
+  transform: scale(1.2);
+  /* Increase the scale factor to zoom in more */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  /* Add a subtle shadow for depth */
+}
+.paineis_empreendimentos .card_menor_1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.paineis_empreendimentos .card_menor_1::after {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 2.91%, #000 100%);
+  content: "";
+  display: block;
+  height: 35%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+}
+.paineis_empreendimentos .text_inside_destaque_1 {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  z-index: 9999;
+  font-family: Gotham_medium;
+}
+.paineis_empreendimentos .text_inside_destaque_1 p {
+  font-size: 0.732vw;
+  color: #fff;
+  margin: 0;
+  font-family: Gotham_light;
+}
+.paineis_empreendimentos .text_inside_destaque_1 .descritivos_card {
+  font-size: 1.042vw;
+  font-family: Gotham_light_more;
+}
+.paineis_empreendimentos .text_inside_destaque_1 .nome_local {
+  margin-bottom: -5px;
+}
+.paineis_empreendimentos .text_inside_destaque_1 #tipo_construcao {
+  margin-bottom: -5px;
+}
+.paineis_empreendimentos .text_inside_destaque_1 .tipo_construcao {
+  margin-bottom: -5px;
+}
+.paineis_empreendimentos .text_inside_destaque_1 h1 {
+  margin: 0;
+  font-size: 1.563vw;
+}
+.paineis_empreendimentos .text_inside_destaque_1 h2 {
+  margin: 0;
+  color: #28566E;
+  width: 12.287vw;
+  height: 1.823vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 1.042vw;
+  background-color: #fff;
+  text-align: center;
+  padding: 0.146vw 0.878vw;
+  font-family: Gotham_medium;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111%;
+  /* 22.2px */
+  text-transform: uppercase;
+}
+
+/***** End Empreendimentos *****/
+/***** Contato *****/
+#contato_div h1 {
+  text-align: center;
+  color: #28566E;
+  font-size: 40px;
+  font-family: Gotham_medium;
+  margin-bottom: 80px;
+}
+#contato_div p {
+  color: #28566E;
+  font-feature-settings: "salt" on;
+  font-size: 1.042vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  /* 20px */
+  font-family: Gotham_light;
+}
+#contato_div input {
+  border-radius: 8px;
+  background: #F5F5F5;
+  border: none;
+}
+#contato_div textarea {
+  border-radius: 8px;
+  background: #F5F5F5;
+  border: none;
+  resize: none;
+}
+#contato_div img {
+  width: 100%;
+}
+#contato_div .email_tel {
+  width: 95%;
+}
+#contato_div #e-mail_div {
+  display: flex;
+  justify-content: end;
+}
+#contato_div button {
+  width: 13.5vw;
+  height: 42px;
+  background-color: #0DCB9D;
+  border-radius: 10px;
+  border: none;
+}
+
+/***** End Contato *****/
+/***** Sobre *****/
+#header_foto {
+  width: 100%;
+}
+
+.sobre_texto_1 h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Gotham_medium;
+  color: #28566e;
+  font-size: 2.604vw;
+  font-style: normal;
+  font-weight: 700;
+}
+.sobre_texto_1 p {
+  color: #000;
+  font-family: Gotham_medium;
+  font-size: 1.25vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  /* 26px */
+  width: 70%;
+}
+
+#divisa_foto {
+  width: 100%;
+}
+
+#texto_acima_divisa-foto {
+  margin-bottom: 7rem;
+}
+
+#sobre_footer_image {
+  width: 100%;
+}
+
+.images_4_father {
+  width: 24%;
+}
+
+.images_4 {
+  width: 100%;
+}
+
+/***** End Sobre *****/
+/***** Empreedimento *****/
+#empreendimento_capa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#empreendimento_capa #empreendimento_capa_texto {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#empreendimento_capa #lancamento_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12.552vw;
+  text-align: center;
+  height: 25px;
+  background-color: #0DCB9D;
+}
+#empreendimento_capa p {
+  text-align: center;
+  color: #FFF;
+  font-family: Gotham_light;
+  font-size: 1.042vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111%;
+  /* 22.2px */
+  text-transform: uppercase;
+  margin: 0;
+}
+#empreendimento_capa h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Gotham_black;
+  font-size: 2.604vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  /* 50px */
+  text-transform: uppercase;
+}
+#empreendimento_capa img {
+  width: 100%;
+}
+
+#empreendimento_texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+#empreendimento_texto h1 {
+  color: #28566E;
+  font-family: Gotham_medium;
+  font-size: 2.604vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111%;
+  /* 55.5px */
+  text-transform: uppercase;
+}
+#empreendimento_texto p {
+  color: #000;
+  font-family: Gotham_light;
+  font-size: 1.042vw;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 130%;
+  /* 26px */
+}
+
+#icones_info .icones_info_text {
+  width: 160px;
+  margin-right: 30px;
+}
+#icones_info .desc_icones {
+  color: #000;
+  font-family: Gotham_light;
+  font-size: 1.042vw;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 130%;
+  /* 26px */
+}
+#icones_info .icones_margin {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#icones_info h2 {
+  color: #28566E;
+  font-family: Gotham_medium;
+  font-size: 1.563vw;
+  font-weight: 700;
+  line-height: 130%;
+  /* 39px */
+  text-transform: uppercase;
+}
+
+#plantas {
+  margin-top: 10px;
+  text-align: center;
+}
+#plantas h1 {
+  color: #28566E;
+  text-align: center;
+  font-family: Gotham_medium;
+  font-size: 2.604vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111%;
+  /* 55.5px */
+  text-transform: uppercase;
+}
+#plantas .plantas_img {
+  width: 32%;
+}
+#plantas img {
+  width: 100%;
+}
+
+#diferencias {
+  margin-top: 10px;
+  text-align: center;
+}
+#diferencias h1 {
+  color: #28566E;
+  text-align: center;
+  font-family: Gotham_medium;
+  font-size: 2.604vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111%;
+  /* 55.5px */
+  text-transform: uppercase;
+}
+#diferencias h2 {
+  color: #28566E;
+  text-align: center;
+  font-family: Gotham_medium;
+  font-size: 1.563vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111%;
+  /* 55.5px */
+  text-transform: uppercase;
+}
+#diferencias p {
+  color: #000;
+  text-align: center;
+  font-family: Gotham_medium;
+  font-size: 1.25vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  /* 26px */
+  margin-top: 25px;
+}
+#diferencias img {
+  width: 35px;
+}
+#diferencias #diferenciais_titulo {
+  text-align: left;
+}
+#diferencias .diferenciais_texto_opcoes {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.cursor_select {
+  cursor: pointer !important;
+}
+
+#cadastro_empreendimento_footer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#cadastro_empreendimento_footer #cadastre {
+  display: flex;
+  flex-direction: column;
+  padding: 25.44px;
+  align-items: left;
+  background-color: #28566e;
+  color: white;
+  z-index: 3;
+  bottom: 0;
+  box-shadow: 2px 2px 14px 1px #020304;
+}
+#cadastro_empreendimento_footer #cadastre #title_and_p {
+  margin-left: 2%;
+}
+#cadastro_empreendimento_footer #cadastre h1 {
+  margin-bottom: 0;
+  font-family: Gotham_medium;
+  font-size: 25px;
+}
+#cadastro_empreendimento_footer #cadastre p {
+  margin-top: -5px;
+  font-family: Gotham_light;
+}
+#cadastro_empreendimento_footer #cadastre #inputs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#cadastro_empreendimento_footer #cadastre .campos_pai {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+#cadastro_empreendimento_footer #cadastre .campos {
+  width: 100%;
+  border-radius: 12px !important;
+  height: 45px;
+  font-family: "Gotham_light";
+  font-weight: 500;
+  color: #7B7B7B;
+}
+#cadastro_empreendimento_footer #cadastre #botao_div {
+  display: flex;
+}
+#cadastro_empreendimento_footer #cadastre .cadastrar {
+  color: white;
+  background-color: #0DCB9D;
+  border-radius: 8px !important;
+  height: 45px;
+  font-family: Gotham_bold;
+  font-weight: 500;
+  width: 80%;
+}
+
+/***** End Empreedimento *****/
+
+/*# sourceMappingURL=style.css.map */
